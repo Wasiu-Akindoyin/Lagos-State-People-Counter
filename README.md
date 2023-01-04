@@ -1,0 +1,1 @@
+This is a readme file on People Counter Project that was done using HTML, CSS, and JavaScript by Wasiu Olanrewaju Akindoyin who is an aspiring Web3 Developer.
