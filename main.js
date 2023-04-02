@@ -1,18 +1,21 @@
-let saveEl = document.getElementById("save-el");
+let  incrementEl = document.querySelector('#increment-btn');
 
-let countEl = document.getElementById("count-el")
+let countEl = document.querySelector('#count-el');
+
+let saveBtn = document.getElementById("save-btn");
+
+let saveEl = document.getElementById("save-el");
 
 let count = 0;
 
-const increment = () => {
+incrementEl.addEventListener('click', () => {
 	count += 1;
-	countEl.innerText = count; 
-	console.log(count);
-}
+	countEl.innerText = count;
+});
 
-const save = () => {
-	let countStr = count + " - ";
+saveBtn.addEventListener('click', () => {
+	let countStr = `${count} ${" - "}`;
 	saveEl.textContent += countStr;
 	countEl.textContent = 0;
 	count = 0;
-}
+});
