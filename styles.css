@@ -82,7 +82,7 @@ p{
 button:hover{
 	background-color: rgb(126, 91, 5);
 	color: white;
-	transition: 1s ease-in-out;
+	transition: 0.3s ease-in-out;
 }
 
 /* MEDIA QUERY STYLING STARTS HERE */
