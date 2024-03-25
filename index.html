@@ -4,25 +4,32 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./styles.css">
+	<link rel="stylesheet" href="./style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Acme&family=Carter+One&family=Cookie&family=Island+Moments&family=PT+Serif+Caption&family=Playfair+Display+SC:wght@400;700;900&family=Red+Hat+Display:wght@700;900&display=swap" rel="stylesheet">
-	<title>Wasiu People-Counter</title>
+	<title>People Counter Application</title>
 </head>
 <body>
-	<h1>People Entered: </h1>
+	<h1 class="main-header">Train Station People Counter</h1>
 
-	<h2 id="count-el">0</h2>
+	<div class="container">
+		<h1>People Entered: </h1>
 
-	<button id="increment-btn">increment</button>
+		<h2 id="count-el">0</h2>
 
-	<button id="save-btn">save</button>
+		<button id="increment-btn">Increment</button>
 
-	<p id="save-el">Previous Entries:</p>
+		<button id="decrement-btn">Decrement</button>
 
-	<footer id="main-footer"><h5>Wasiu &copy; 2023 my Project</h5></footer>
+		<button id="save-btn">Save</button>
 
-	<script src="./main.js"></script>
+		<button id="reset-btn">Reset</button>
+
+		<p>Saved Counts: <span id="save-el"></span></p>
+
+	</div>
+
+	<script src="script.js"></script>
 </body>
 </html>
